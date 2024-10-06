@@ -1,21 +1,11 @@
-import React, { useState } from 'react';
+import Chai from "./Chai";
 
-// Define the Kumar component
-function Kumar() {
-  return (
-    <div>
-      Hello, I am Kumar!
-    </div>
-  );
-}
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <h1>
-      <Kumar />
-    </h1>
+    <div>
+      <Chai/>
+    </div>
   );
 }
 
