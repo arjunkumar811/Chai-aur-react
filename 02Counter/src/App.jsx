@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(15)
 
-// let counter = 15
+
 
 const addValue = () => {
   // counter = counter + 1
